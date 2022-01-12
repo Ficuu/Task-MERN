@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const dotenv = require('dotenv').config()
 
 // 78debGUpdDOC8ETU
 
@@ -9,3 +10,4 @@ mongoose.connect(URI)
     .catch(err => console.error(err)) 
 
 module.exports = mongoose
+
